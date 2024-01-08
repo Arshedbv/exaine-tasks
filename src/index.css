@@ -1,3 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 *{
-    
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.body-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text-align-h1-center{
+    text-align: center;
+}
+.task-list{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    overflow-wrap: break-word;
+    max-width: 400px;
+}
+.task-list p{ 
+    color: grey;
+}
+.task-item{
+    /* background-color: aqua; */
+    /* width: 900px; */
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.btn-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.update-btn{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.update-btn:hover{
+    background-color: hsl(105, 100%, 70%);
+}
+.delete-btn{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: hsla(0, 100%, 50%, 0.433);
+}
+.delete-btn:hover{
+    background-color:hsla(0, 100%, 50%, 1);
+    transition: all 0.3s;
+}
+.input-text{
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+textarea{
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.submit-btn{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.submit-btn:hover{
+    transition: all 0.3s;
+    background-color: greenyellow;
 }

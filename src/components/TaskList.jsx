@@ -4,7 +4,8 @@ import TaskItem from './TaskItem';
 export default function TaskList({ tasks, updateTask, deleteTask }) {
   return (
     <>
-      <ul>
+      <ul className='task-item'>
+        
         {tasks.map((task) => (
           <TaskItem
             key={task.id}

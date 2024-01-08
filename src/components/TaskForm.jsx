@@ -25,18 +25,21 @@ export default function TaskForm({ addTask }) {
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className='body-wrap'>
                 <label>
                     Title:
+                    <br></br>
                     <input
                         type='text'
                         value={taskTitle}
                         placeholder='Enter task title...'
                         onChange={(e) => { setTaskTitle(e.target.value) }}
+                        className='input-text'
                     />
                 </label>
                 <label>
                     Description:
+                    <br></br>
                     <textarea
                         type='text'
                         value={taskDescription}
@@ -44,7 +47,7 @@ export default function TaskForm({ addTask }) {
                         onChange={(e) => { setTaskDescription(e.target.value) }}
                     />
                 </label>
-                <button type='submit'>
+                <button type='submit' className='submit-btn'>
                     Add task
                 </button>
             </form>

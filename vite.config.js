@@ -11,7 +11,7 @@ export default defineConfig({
         "name": "Exaine-tasks",
         "short_name": "Exaine",
         "description": "Tasks made easy",
-        "start_url": "/",
+        "start_url": "/exaine-tasks/",
         "display": "standalone",
         "background_color": "#ffffff",
         "theme_color": "#000000",

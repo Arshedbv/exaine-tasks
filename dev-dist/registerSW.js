@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/exaine-tasks/dev-sw.js?dev-sw', { scope: '/exaine-tasks/', type: 'classic' })

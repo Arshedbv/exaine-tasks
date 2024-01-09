@@ -5,8 +5,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -27,6 +27,7 @@
     "gh": "^2.8.9",
     "gh-pages": "^6.1.1",
     "pages": "^0.0.16",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "vite-plugin-pwa": "^0.17.4"
   }
 }

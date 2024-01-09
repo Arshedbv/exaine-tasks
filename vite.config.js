@@ -33,16 +33,12 @@ export default defineConfig({
         "lang": "en-US",
         "prefer_related_applications": false,
         "related_applications": [],
-        "serviceworker": {
-          "src": "/sw.js",
-          "scope": "/",
-          "type": "module"
-        }
-      }
-      ,
+      },
       devOptions: {
         enabled: true
-      }
+      },
+      // other PWA options go here
+      // ...
     })
   ],
   base: "/exaine-tasks/"

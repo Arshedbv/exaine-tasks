@@ -34,7 +34,6 @@ export default function TaskForm({ addTask }) {
                         value={taskTitle}
                         placeholder='Enter task title...'
                         onChange={(e) => { setTaskTitle(e.target.value) }}
-                        className='input-text'
                     />
                 </label>
                 <label>
